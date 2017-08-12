@@ -1,0 +1,130 @@
+{
+  "Description": "TEst all events ",
+  "ReturnItems": [
+    {
+      "ReturnEventType": "HandleSlotFault",
+      "Delay": 92,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSlotPinSamples",
+      "Delay": 8,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberEvent",
+      "Delay": 62,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSlotFault",
+      "Delay": 92,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberEvent",
+      "Delay": 73,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 36,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSlotPowerSamples",
+      "Delay": 86,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSlotFault",
+      "Delay": 43,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberFault",
+      "Delay": 42,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberSamples",
+      "Delay": 53,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 58,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSystemEvent",
+      "Delay": 52,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 1,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSystemFault",
+      "Delay": 14,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 97,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSystemFault",
+      "Delay": 68,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSlotPinSamples",
+      "Delay": 45,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberFault",
+      "Delay": 23,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 21,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSystemEvent",
+      "Delay": 39,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSocketEvent",
+      "Delay": 96,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberEvent",
+      "Delay": 55,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberEvent",
+      "Delay": 87,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleChamberEvent",
+      "Delay": 47,
+      "ResponseString": "{chamber = 1, item =2}"
+    },
+    {
+      "ReturnEventType": "HandleSystemEvent",
+      "Delay": 45,
+      "ResponseString": "{chamber = 1, item =2}"
+    }
+  ]
+}
