@@ -5,10 +5,10 @@ from data import HandleSlotEventList
 def json_builder(items_num,jsonname,description):
     returnitems = []
     scriptname = jsonname + '.json'
-    if input('Set all values randomly (Y/N) = ') == 'Y' or 'y':
-        [returnitems.append(get_random_data()) for i in range(items_num)]
-    else:
-        [returnitems.append(get_input_data()) for i in range(items_num)]
+    # if input('Set all values randomly (Y/N) = ') == 'Y' or 'y':
+    [returnitems.append(get_random_data()) for i in range(items_num)]
+    # else:
+    #     [returnitems.append(get_input_data()) for i in range(items_num)]
     compose = {"Description":description, "ReturnItems":returnitems}
     with open(scriptname, "w") as f:
         f.write(json.dumps((compose),sort_keys=False, indent=2))
