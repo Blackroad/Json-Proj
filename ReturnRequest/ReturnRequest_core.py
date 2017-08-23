@@ -2,7 +2,7 @@ import json
 import random
 from data import HandleSlotEventList
 
-def json_builder(items_num,jsonname,description):
+def return_request_json_builder(items_num, jsonname, description):
     returnitems = []
     scriptname = jsonname + '.json'
     inputtype = input('Set all values randomly (Y/N) = ')

@@ -1,6 +1,5 @@
 from appJar import gui
-from app import json_builder, get_input_data
-
+from return_request_core import json_builder
 
 
 def press(button):
