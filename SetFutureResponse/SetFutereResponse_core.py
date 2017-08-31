@@ -3,21 +3,17 @@ import random
 from data import ForwardCalls, Responses, HandleSlotEventList
 
 
-#
-# def set_future_response_json_builder(items_num, jsonname):
-#     returnitems = {}
-#
-#     scriptname = jsonname + '.json'
-#     inputtype = input('Set all values randomly (Y/N) = ')
-#     if inputtype == 'Y':
-#         returnitems= update(get_random_data()) for i in range(items_num)}
-#     elif inputtype == 'N':
-#         [returnitems.append(get_input_data()) for i in range(items_num)]
 
-
-
-
-
+def set_future_response_json_builder(jsonname):
+    set:None
+    scriptname = jsonname + '.json'
+    inputtype = input('Set all values randomly (Y/N) = ')
+    if inputtype == 'Y':
+        set = get_random_data()
+    elif inputtype == 'N':
+        set = get_input_data()
+    with open(scriptname, "w") as f:
+        f.write(json.dumps(set, sort_keys=False, indent=2))
 
 
 def get_random_data():
@@ -31,10 +27,7 @@ def get_random_data():
         responseString = "{'test'}"
         items.append({"ReturnEventType": eventType, "Delay": delay, "ResponseString": responseString})
     compose = {'ForwardCall': forwardCall, 'Response': response, 'ReturnItems': items}
-    with open('test1.json', "w") as f:
-        f.write(json.dumps(compose, sort_keys=False, indent=2))
-
-
+    return compose
 
 
 def get_input_data():
@@ -48,8 +41,8 @@ def get_input_data():
         responseString = input("ResponseString = ")
         items.append({"ReturnEventType": eventType, "Delay": delay, "ResponseString": responseString})
     compose = {'ForwardCall':forwardCall,'Response':response,'ReturnItems':items}
+    return compose
 
 
 
 
-get_random_data()

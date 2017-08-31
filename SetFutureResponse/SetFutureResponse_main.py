@@ -1,9 +1,12 @@
+from SetFutureResponse.SetFutereResponse_core import set_future_response_json_builder
 
 
 
-
-def set_future_response_jsoncreator():
+def return_request_jsoncreator():
     jsonname = input('Name for script = ')
-    return_request_json_builder(items, jsonname, description)
+    set_future_response_json_builder(jsonname)
+
+
+
 
 return_request_jsoncreator()
